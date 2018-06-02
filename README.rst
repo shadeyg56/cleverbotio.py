@@ -16,6 +16,7 @@ Example
 
     cb = Cleverbotio.Cleverbot('API_USER','YOUR_API_KEY', 'Bot Nickname)
     
+    cb.create_session()
     resp = cb.say("Hello World")
     
     print(resp)
@@ -72,6 +73,12 @@ timeout and or tweak if you want to adjust Cleverbot's mood:
 .. code:: py
 
     cb = Cleverbot.Cleverbot('API_USER, 'YOUR_API_KEY', 'Bot Nickname')
+    
+Now you create a cleverbot instance
+
+.. code:: py
+     
+    cb.create_session
 
 Now you can use the say function which returns a JSON dict from the API of the status and cleverbot response
 
